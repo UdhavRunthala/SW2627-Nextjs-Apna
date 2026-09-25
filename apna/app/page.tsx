@@ -8,7 +8,7 @@ import RecentActivity from "./components/RecentActivity";
 
 export default async function Home() {
   const session = await getServerSession(authOptions);
-  const userName = session?.user?.name || "Alex";
+  const userName = session?.user?.name || "Udhav";
 
   return (
     <div className="bg-gray-50 min-h-screen">
